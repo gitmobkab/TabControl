@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "TabControl",
+  "version" : 1.0,
+
+  "description": "Better Tab Switching with custom css and smart keys",
+
+  "icons":{
+    "48": "Path/for/TabControl/icons-48.png HERE"
+    "64": "Path/for/TabControl/icons-64.png HERE"
+  }
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*"],
+      "js":["TabControl.js"]
+    }
+  ]
+}
